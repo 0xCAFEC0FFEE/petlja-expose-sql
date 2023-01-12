@@ -1,0 +1,20 @@
+{
+    "name": "rip petlja",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "gas",
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_title": "rip"
+    },
+    "permissions": [
+      "https://*/*",
+      "http://*/*",
+      "tabs"
+    ]
+  }
